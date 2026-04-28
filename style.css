@@ -1,0 +1,54 @@
+h1 { font-size: 2.8em; color: black; text-align: center; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); }
+h2 { font-size: 2.2em; color: yellow; border-bottom: 3px solid yellow; padding-bottom: 5px; display: inline-block; }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #111;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(90deg, blue, yellow);
+    padding: 20px;
+}
+
+nav {
+    margin: 20px;
+}
+
+nav a {
+    color: yellow;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.main {
+    padding: 40px;
+}
+
+button {
+    padding: 15px 30px;
+    background: yellow;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: orange;
+    transform: scale(1.1);
+}
+
+footer {
+    margin-top: 50px;
+    padding: 10px;
+    background: #222;
+}
